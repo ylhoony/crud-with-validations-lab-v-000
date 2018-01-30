@@ -17,10 +17,10 @@ class Song < ActiveRecord::Base
   #   end
   # end
 
-  def is_release_year_required?
-    if released === true && release_year.nil? == true
-      errors.add(:release_year, "must be filled when it is released.")
-    end
-  end
+  # def is_release_year_required?
+  #   if released === true && release_year.nil? == true
+  #     errors.add(:release_year, "must be filled when it is released.")
+  #   end
+  # end
 
 end
